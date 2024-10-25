@@ -17,7 +17,7 @@ final class WebService {
     $query=array();
     parse_str($queryString, $query);
     
-//    $aArrays=array($_POST, $_GET, $query, $jsonData);
+//    $aArrays=array($_POST, $_GET, $query, $jsonData); ??
     $aArrays=array($_POST, $_GET, $jsonData);
 
     $requestData = CommonMethod::mergeArray($aArrays);
